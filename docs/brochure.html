@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Caribbean Dental Care — Voorstel nieuwe website</title>
+<style>
+@font-face{font-family:Manrope;src:url(fonts/manrope-700.woff2) format("woff2");font-weight:700}
+@font-face{font-family:Manrope;src:url(fonts/manrope-800.woff2) format("woff2");font-weight:800}
+@font-face{font-family:Inter;src:url(fonts/inter-400.woff2) format("woff2");font-weight:400}
+@font-face{font-family:Inter;src:url(fonts/inter-600.woff2) format("woff2");font-weight:600}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--g:#629963;--gs:#99c79a;--gi:#3f7341;--b:#425f78;--bs:#879fb4;--n:#142b3b;--soft:#f4f8f7;--ink:#223744;--line:#e0eae6;--mut:#5b6f7c}
+body{font-family:Inter,sans-serif;color:var(--ink);font-size:10.5pt;line-height:1.55;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;padding:22mm 18mm 18mm;page-break-after:always;background:#fff}
+.page:last-child{page-break-after:auto}
+h1,h2,h3{font-family:Manrope,sans-serif;color:var(--n);letter-spacing:-.02em}
+h2{font-size:24pt;font-weight:800;line-height:1.1;margin-top:5mm}
+h3{font-size:12.5pt;font-weight:700}
+.k{font-size:8pt;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gi);display:flex;align-items:center;gap:3mm}
+.k:before{content:"";width:8mm;height:2px;background:var(--g);border-radius:2px}
+.lead{font-size:12pt;color:#223744cc;margin-top:4mm;max-width:150mm}
+.foot{position:absolute;left:18mm;right:18mm;bottom:10mm;display:flex;justify-content:space-between;font-size:7.5pt;color:var(--mut);border-top:1px solid var(--line);padding-top:3mm}
+.shot{border-radius:4mm;overflow:hidden;box-shadow:0 6mm 14mm -8mm rgba(20,43,59,.35);border:1px solid var(--line)}
+.shot img{display:block;width:100%}
+.crop img{height:100%;object-fit:cover;object-position:top}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5mm}
+.card{border:1px solid var(--line);border-radius:4mm;padding:5mm;background:#fff}
+.soft{background:var(--soft)}
+ul.c{list-style:none;margin-top:3mm}
+ul.c li{padding-left:5mm;position:relative;margin:1.6mm 0}
+ul.c li:before{content:"";position:absolute;left:0;top:2.1mm;width:2mm;height:2mm;border-radius:50%;background:var(--g)}
+.tag{display:inline-block;font-size:7.5pt;border:1px dashed var(--bs);color:var(--b);background:var(--soft);border-radius:10mm;padding:.8mm 3mm}
+.phone{border-radius:7mm;overflow:hidden;border:2.2mm solid var(--n);box-shadow:0 8mm 16mm -8mm rgba(20,43,59,.45)}
+.phone img{display:block;width:100%}
+table{width:100%;border-collapse:collapse;font-size:9.5pt;margin-top:4mm}
+td,th{text-align:left;padding:2.6mm 3mm;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:7.5pt;text-transform:uppercase;letter-spacing:.1em;color:var(--mut)}
+.num{font-family:Manrope;font-weight:800;color:var(--n)}
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="page" style="padding:0;background:#142b3b">
+  <div style="position:absolute;inset:0;background:radial-gradient(70% 55% at 85% 10%,rgba(98,153,99,.45),transparent 60%),radial-gradient(60% 60% at 0% 100%,rgba(66,95,120,.7),transparent 60%)"></div>
+  <div style="position:absolute;left:18mm;top:22mm;color:#fff;display:flex;align-items:center;gap:3mm">
+    <svg viewBox="0 0 44 44" width="40" height="40"><path d="M22 9c-3-2.2-6.6-2.6-9.2-1-3.3 2-3.8 6.6-2.6 11.1 1 3.6 1.6 7.5 2.3 11.4.5 2.6 1.3 4.6 3 4.6 1.9 0 2.4-2.6 3-5.6.4-2.1 1.4-3.6 3.5-3.6s3.1 1.5 3.5 3.6c.6 3 1.1 5.6 3 5.6 1.7 0 2.5-2 3-4.6.7-3.9 1.3-7.8 2.3-11.4 1.2-4.5.7-9.1-2.6-11.1-2.6-1.6-6.2-1.2-9.2 1Z" fill="#99c79a"/><path d="M4 30c8 6 26 7 36-3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
+    <div><div style="font:italic 17pt Georgia,serif">Caribbean</div><div style="font-size:7pt;letter-spacing:.32em;color:#99c79a;font-weight:600">DENTAL CARE</div></div>
+  </div>
+  <div style="position:absolute;left:18mm;right:18mm;top:58mm;color:#fff">
+    <div class="k" style="color:#99c79a">Voorstel · november 2026</div>
+    <h1 style="color:#fff;font-size:40pt;font-weight:800;line-height:1.02;margin-top:6mm">Een nieuwe digitale<br>voordeur voor uw<br>praktijk.</h1>
+    <p style="font-size:12.5pt;color:rgba(255,255,255,.78);margin-top:6mm;max-width:130mm">Presentatie van de vernieuwde website van Caribbean Dental Care, Kralendijk — met een beheeromgeving voor uw team.</p>
+  </div>
+  <div style="position:absolute;left:18mm;right:18mm;bottom:22mm" class="shot"><img src="assets/d-hero.png" alt=""></div>
+</section>
+
+<!-- 2 CONCEPT -->
+<section class="page">
+  <div class="k">01 · Concept</div>
+  <h2>Persoonlijke zorg,<br>zichtbaar online.</h2>
+  <p class="lead">De nieuwe website vertaalt wat Caribbean Dental Care uniek maakt — toegankelijke, persoonlijke zorg voor iedereen op Bonaire — naar een rustige, moderne en betrouwbare uitstraling. Geen luxe-kliniek, maar een praktijk waar patiënten zich direct welkom voelen.</p>
+  <div class="grid3" style="margin-top:9mm">
+    <div class="card soft"><h3>Vertrouwen</h3><p style="margin-top:2mm">Heldere teksten, eerlijke informatie en geen beloftes die de praktijk niet kan waarmaken.</p></div>
+    <div class="card soft"><h3>Gemak</h3><p style="margin-top:2mm">Bellen, WhatsApp of het formulier: elke bezoeker vindt binnen enkele seconden de weg naar de praktijk.</p></div>
+    <div class="card soft"><h3>Herkenbaarheid</h3><p style="margin-top:2mm">Gebouwd op de kleuren van uw logo: het groen van de tand en het blauw van de lijn.</p></div>
+  </div>
+  <h3 style="margin-top:12mm">Huisstijl</h3>
+  <div style="display:flex;gap:4mm;margin-top:4mm">
+    <div style="flex:1"><div style="height:20mm;border-radius:3mm;background:#629963"></div><p style="font-size:8pt;margin-top:1.5mm"><b>Groen</b> #629963</p></div>
+    <div style="flex:1"><div style="height:20mm;border-radius:3mm;background:#99c79a"></div><p style="font-size:8pt;margin-top:1.5mm"><b>Zacht groen</b> #99C79A</p></div>
+    <div style="flex:1"><div style="height:20mm;border-radius:3mm;background:#425f78"></div><p style="font-size:8pt;margin-top:1.5mm"><b>Blauw</b> #425F78</p></div>
+    <div style="flex:1"><div style="height:20mm;border-radius:3mm;background:#879fb4"></div><p style="font-size:8pt;margin-top:1.5mm"><b>Zacht blauw</b> #879FB4</p></div>
+    <div style="flex:1"><div style="height:20mm;border-radius:3mm;background:#142b3b"></div><p style="font-size:8pt;margin-top:1.5mm"><b>Navy</b> #142B3B</p></div>
+  </div>
+  <p style="font-size:8pt;color:var(--mut);margin-top:3mm">Kleuren afgeleid van het logo; definitieve waarden worden afgestemd op het originele logobestand.</p>
+  <div class="grid2" style="margin-top:9mm;align-items:center">
+    <div><h3>Typografie</h3><p style="font-family:Manrope;font-weight:800;font-size:22pt;color:var(--n);line-height:1.1;margin-top:3mm">Manrope voor titels</p><p style="font-size:12pt;margin-top:2mm">Inter voor tekst en interface — goed leesbaar op elk scherm.</p></div>
+    <div class="card"><h3>3D-ervaring</h3><p style="margin-top:2mm">Op de homepage draait een interactieve 3D-kies, omringd door de lijnen uit het logo. Licht, snel en met een statisch alternatief op oudere toestellen.</p></div>
+  </div>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website</span><span>2</span></div>
+</section>
+
+<!-- 3 HOMEPAGE -->
+<section class="page">
+  <div class="k">02 · Homepage</div>
+  <h2>Eén pagina die bezoekers<br>naar een afspraak leidt.</h2>
+  <p class="lead">Van de eerste indruk tot de laatste knop: elke sectie beantwoordt een vraag van de patiënt — wat doet de praktijk, waar is ze, en hoe neem ik contact op?</p>
+  <div class="shot crop" style="margin-top:7mm;height:88mm"><img src="assets/d-treat.png" alt=""></div>
+  <div class="grid2" style="margin-top:6mm">
+    <div class="shot"><img src="assets/d-journey.png" alt=""></div>
+    <div class="shot"><img src="assets/d-urgent.png" alt=""></div>
+  </div>
+  <ul class="c" style="columns:2;column-gap:8mm;margin-top:6mm;font-size:9.5pt">
+    <li>Hero met 3D-kies en directe knoppen</li><li>Onze praktijk: drie kernwaarden</li><li>Zes belangrijkste behandelingen</li><li>Tandenbleken en aligners</li><li>De praktijk aan de Kaya Korona</li><li>Afspraak in drie stappen</li><li>Spoedblok “Last van kiespijn?”</li><li>Locatie, kaart en route</li><li>Veelgestelde vragen</li><li>Afsluitende oproep + footer</li>
+  </ul>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website</span><span>3</span></div>
+</section>
+
+<!-- 4 MOBIEL -->
+<section class="page">
+  <div class="k">03 · Mobiel</div>
+  <h2>Gemaakt voor de telefoon.</h2>
+  <p class="lead">De meeste patiënten zoeken een tandarts op hun smartphone. Daarom is de site eerst voor mobiel ontworpen, met een vaste balk onderin om direct te bellen of te WhatsAppen.</p>
+  <div class="grid3" style="margin-top:12mm;gap:8mm">
+    <div class="phone"><img src="assets/m-hero.png" alt=""></div>
+    <div class="phone"><img src="assets/m-3d.png" alt=""></div>
+    <div class="phone"><img src="assets/m-form.png" alt=""></div>
+  </div>
+  <div class="grid3" style="margin-top:6mm;font-size:9pt;text-align:center;color:var(--mut)"><p>Eerste scherm</p><p>3D en knoppen onderin</p><p>Contactformulier</p></div>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website</span><span>4</span></div>
+</section>
+
+<!-- 5 PAGINA'S -->
+<section class="page">
+  <div class="k">04 · De pagina's</div>
+  <h2>Vijf pagina's, helder<br>en volledig in het Nederlands.</h2>
+  <table>
+    <tr><th style="width:42mm">Pagina</th><th>Inhoud</th></tr>
+    <tr><td class="num">Home</td><td>Het belangrijkste instrument om bezoekers om te zetten in afspraakaanvragen.</td></tr>
+    <tr><td class="num">Behandelingen</td><td>Elf behandelingen met elk een eigen pagina: wanneer, hoe in grote lijnen, veelgestelde vragen en een directe contactknop. Alleen behandelingen die de praktijk aanbiedt.</td></tr>
+    <tr><td class="num">Over ons</td><td>Het verhaal en de uitgangspunten van de praktijk, met een teamgedeelte dat wordt ingevuld zodra foto's en namen zijn goedgekeurd.</td></tr>
+    <tr><td class="num">Voor patiënten</td><td>Contact opnemen, een bezoek aanvragen, het eerste bezoek, kiespijn en veelgestelde vragen.</td></tr>
+    <tr><td class="num">Contact &amp; afspraak</td><td>Telefoon, WhatsApp met kant-en-klaar bericht, adres, kaart, route en een beveiligd contactformulier.</td></tr>
+  </table>
+  <div class="shot crop" style="margin-top:7mm;height:82mm"><img src="assets/d-detail.png" alt=""></div>
+  <p style="font-size:8.5pt;color:var(--mut);margin-top:3mm">Voorbeeld van een behandelpagina (Kronen). De structuur is voorbereid op latere versies in het Engels en Papiamentu.</p>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website</span><span>5</span></div>
+</section>
+
+<!-- 6 CONTACT + DASHBOARD -->
+<section class="page">
+  <div class="k">05 · Contact en beheer</div>
+  <h2>Elke aanvraag op één plek.</h2>
+  <p class="lead">Aanvragen via de website komen binnen in een eenvoudige beheeromgeving. Uw team ziet direct wie gebeld moet worden en houdt de status bij — van “Nieuw” tot “Afgerond”.</p>
+  <div class="shot crop" style="margin-top:6mm;height:80mm"><img src="assets/d-admin.png" alt=""></div>
+  <div class="grid2" style="margin-top:6mm">
+    <div class="shot"><img src="assets/d-admin-req.png" alt=""></div>
+    <div class="shot"><img src="assets/d-admin-agenda.png" alt=""></div>
+  </div>
+  <div class="grid3" style="margin-top:6mm;font-size:9pt">
+    <div class="card soft"><h3 style="font-size:10.5pt">Aanvragen</h3><p>Naam, contact, onderwerp, status en interne notities.</p></div>
+    <div class="card soft"><h3 style="font-size:10.5pt">Agenda</h3><p>Overzicht van afspraken die het team zelf heeft bevestigd.</p></div>
+    <div class="card soft"><h3 style="font-size:10.5pt">Inhoud &amp; statistiek</h3><p>Teksten, FAQ en openingstijden aanpassen; klikken op bellen en WhatsApp meten.</p></div>
+  </div>
+  <p style="font-size:8pt;color:var(--mut);margin-top:4mm">Getoonde gegevens zijn fictief. Een aanvraag is nooit automatisch een bevestigde afspraak, en de beheeromgeving vervangt geen tandheelkundig praktijkbeheersysteem.</p>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website</span><span>6</span></div>
+</section>
+
+<!-- 7 VOORDELEN -->
+<section class="page">
+  <div class="k">06 · Voordelen</div>
+  <h2>Wat de nieuwe website<br>oplevert.</h2>
+  <div class="grid2" style="margin-top:10mm">
+    <div class="card"><h3>Voor patiënten</h3>
+      <ul class="c">
+        <li>In één oogopslag zien wat de praktijk doet en waar ze zit</li>
+        <li>Bellen of WhatsAppen met één tik</li>
+        <li>Duidelijke, eerlijke uitleg over behandelingen</li>
+        <li>Snelle weg naar hulp bij kiespijn</li>
+        <li>Toegankelijk ontworpen: goed leesbaar, ook met hulpmiddelen</li>
+      </ul></div>
+    <div class="card"><h3>Voor de praktijk</h3>
+      <ul class="c">
+        <li>Minder losse berichten: aanvragen op één plek</li>
+        <li>Beter vindbaar op zoektermen als “tandarts Bonaire” en “tandarts Kralendijk”</li>
+        <li>Een professionele uitstraling die past bij de nieuwe naam</li>
+        <li>Zelf teksten en openingstijden bijwerken</li>
+        <li>Inzicht in hoe vaak bezoekers contact zoeken</li>
+      </ul></div>
+  </div>
+  <div class="card soft" style="margin-top:8mm"><h3>Zorgvuldig met gegevens</h3>
+    <p style="margin-top:2mm">Het formulier vraagt alleen naam, telefoonnummer en onderwerp — geen medische gegevens. Spambeveiliging is ingebouwd, statistieken werken zonder cookies, en de kaart van Google laadt pas na toestemming. In de definitieve versie heeft alleen ingelogd personeel toegang tot de aanvragen.</p></div>
+  <div class="card" style="margin-top:6mm"><h3>Vindbaarheid (SEO)</h3>
+    <p style="margin-top:2mm">Unieke titels en beschrijvingen per pagina, gestructureerde gegevens voor Google (type “Dentist”) met uitsluitend gecontroleerde informatie, een sitemap en dezelfde naam-, adres- en telefoongegevens op elke pagina.</p></div>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website</span><span>7</span></div>
+</section>
+
+<!-- 8 VOORSTEL -->
+<section class="page">
+  <div class="k">07 · Voorstel en volgende stappen</div>
+  <h2>Ons voorstel.</h2>
+  <div class="card" style="margin-top:8mm;border:2px solid var(--g)">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8mm">
+      <div><h3>Website Caribbean Dental Care</h3>
+        <ul class="c" style="font-size:9.8pt">
+          <li>Website tot 5 pagina's, responsive</li>
+          <li>Domein en hosting inbegrepen in het eerste jaar</li>
+          <li>2 revisierondes</li>
+          <li>Oplevering circa 7 dagen na ontvangst van alle benodigde materialen</li>
+        </ul></div>
+      <div style="text-align:right;min-width:48mm"><div class="num" style="font-size:30pt">€ 700</div><div style="font-size:8.5pt;color:var(--mut)">eenmalig · voorstel van de leverancier</div></div>
+    </div>
+    <p style="font-size:8.5pt;color:var(--mut);margin-top:4mm;border-top:1px solid var(--line);padding-top:3mm">Indicatief voorstel, ter goedkeuring. De fiscale behandeling (btw/ABB op Bonaire), de valuta (EUR of USD) en de verlengingskosten na het eerste jaar worden nog afgestemd. De beheeromgeving, het 3D-element en de presentatievideo zijn in deze presentatie getoond als mogelijkheden; of en hoe zij in de prijs zijn inbegrepen, wordt samen besloten.</p>
+  </div>
+  <h3 style="margin-top:10mm">Wat wij nog van u nodig hebben</h3>
+  <table style="font-size:9pt">
+    <tr><td>Origineel logobestand</td><td>Openingstijden</td></tr>
+    <tr><td>E-mailadres voor patiënten en voor meldingen</td><td>Namen, functies en foto's van het team (met toestemming)</td></tr>
+    <tr><td>Foto's van de praktijk</td><td>Beleid voor spoed buiten openingstijden</td></tr>
+    <tr><td>Bevestiging van de behandelingen en teksten</td><td>Gewenste domeinnaam en bedrijfsgegevens voor de footer</td></tr>
+  </table>
+  <h3 style="margin-top:10mm">Volgende stappen</h3>
+  <div class="grid3" style="margin-top:4mm">
+    <div class="card soft"><div class="num" style="font-size:18pt;color:var(--g)">1</div><p>Bekijk de demo en deel uw feedback.</p></div>
+    <div class="card soft"><div class="num" style="font-size:18pt;color:var(--g)">2</div><p>Akkoord op het voorstel en aanlevering van de materialen.</p></div>
+    <div class="card soft"><div class="num" style="font-size:18pt;color:var(--g)">3</div><p>Afronding, controle samen met u en livegang.</p></div>
+  </div>
+  <p style="margin-top:10mm;font-size:9.5pt">Met vriendelijke groet,<br><b>Giuseppe Veccia</b> · Dental Go · dentalgo.it</p>
+  <div class="foot"><span>Caribbean Dental Care · Voorstel nieuwe website · Demo met tijdelijk logo en fictieve gegevens in de beheeromgeving</span><span>8</span></div>
+</section>
+</body>
+</html>

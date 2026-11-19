@@ -1,0 +1,18 @@
+/*
+ * Caribbean Dental Care — design tokens
+ * Groen/blauw zijn visuele benaderingen uit het logo (screenshot WhatsApp), geen officiële waarden.
+ * --cdc-green-ink is een donkerdere tint van de merkgroen voor tekst/knoppen op wit (WCAG AA).
+ */
+:root {
+  --cdc-green: #629963;
+  --cdc-green-soft: #99c79a;
+  --cdc-green-ink: #3f7341;
+  --cdc-blue: #425f78;
+  --cdc-blue-soft: #879fb4;
+  --cdc-navy: #142b3b;
+  --cdc-white: #ffffff;
+  --cdc-soft: #f4f8f7;
+  --cdc-ink: #223744;
+  --cdc-line: #e0eae6;
+  --cdc-muted: #5b6f7c;
+}

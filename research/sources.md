@@ -1,0 +1,19 @@
+# Fonti — Caribbean Dental Care (verifica del 19/11/2026)
+
+Livelli di attendibilità: **Alta** = fonte ufficiale o informazione fornita dal cliente · **Media** = stampa locale / annuncio professionale · **Bassa** = directory o dato non aggiornato.
+
+| Data verifica | Fonte | Informazioni trovate | Attendibilità | Uso nel sito |
+|---|---|---|---|---|
+| 19/11/2026 | Brief del cliente (messaggio WhatsApp dello studio, logo) | Nome, indirizzo Kaya Korona 18, telefono/WhatsApp +599 717 8106, trattamenti: pulizia professionale, corone, devitalizzazioni, apparecchi, allineatori, sbiancamento | Alta | Sì: NAP, trattamenti |
+| 19/11/2026 | KNMT — vacature "Tandarts gezocht voor praktijk op Bonaire" — https://knmt.nl/vacatures/tandarts-gezocht-voor-praktijk-op-bonaire (ultima modifica 26/10/2026) | 2 tandartsen, 4 behandelstoelen, 3 assistenten, 1 mondhygiënist. Focus: preventie, diagnostiek, restauratieve zorg, kindertandheelkunde, pijnklachten, extracties, onderhoud. Filosofia: "maatschappelijk relevante mondzorg", toegankelijkheid en continuïteit. Pazienti di età, lingua e background diversi; team internazionale e multilingue. Contatto recruiting: Lara Chirino, admin@chirinodentalclinic.com, +599 785 2916. L'annuncio scrive anche "Carribean" (refuso). | Media | Sì per posizionamento e trattamenti. **No** per numeri del team (snapshot, da confermare), **no** per email e telefono recruiting |
+| 19/11/2026 | Bonaire.nu — "Na decennia van schaarste groeit het aantal tandartspraktijken op Bonaire opeens razendsnel", Harald Linkels, 01/01/2026 — https://www.bonaire.nu/nieuws/gezondheidszorg/84123/ | La praktijk di Percy Chirino in Kaya Korona (circa 30 anni sull'isola) è stata rilevata da nuovi proprietari (non nominati) e prosegue come Caribbean Dental Care. Altri studi sull'isola: Coral Dental, BonSmiles, Klinika Dental Van Egmond, praktijk Eric Hagens (5 studi in totale) | Media | Sì, in forma prudente ("de praktijk aan de Kaya Korona"). Nessun nome di professionisti precedenti o attuali sul sito |
+| 19/11/2026 | infobonaire.com — "Dentist Offices on Bonaire" — https://infobonaire.com/?p=31809 | "FCA Chirino Memorial Dental Clinic", Kaya Korona 18, +599 717 8106 o +599 796 8106 | Bassa (pagina datata) | Conferma storica di indirizzo e numero 717 8106. Il secondo numero non viene usato |
+| 19/11/2026 | aaoinfo.org — locator AAO, Dr. Patricia L. Brown (ortodontista) | Indirizzo dello studio: Kaya Korona 18, Kralendijk | Bassa (non si sa se attuale) | Non usato. Da chiedere al cliente se l'ortodonzia è svolta da un professionista esterno |
+| 19/11/2026 | Rijksdienst CN / ZJCN (risultati di ricerca) | Per gli adulti la maggior parte delle cure dentali non è rimborsata dalla ZJCN; i minori di 18 anni hanno diritto al pacchetto completo | Media (regole soggette a cambiamenti) | **Non usato**: le convenzioni assicurative restano "da confermare" |
+| 19/11/2026 | Cybo — https://www.cybo.com/BQ/kralendijk/dentists/ | Pagina non raggiungibile (errore del sito) | — | Non usata |
+| 19/11/2026 | Coral Dental Bonaire — https://www.coraldentalbonaire.com/ | Solo analisi UX (nessun contenuto riutilizzato): sito in NL/EN/Papiamentu, prenotazione via portale esterno, sezione urgenze chiara, orari ben leggibili; punti deboli: slider ripetitivo, CTA hero verso "About", flusso registrazione/prenotazione poco chiaro, urgenze a metà pagina, alt text mancanti | — | Spunti: urgenze sempre raggiungibili, un solo percorso di contatto chiaro, CTA hero verso il contatto |
+| — | chirinodental.com | Non considerato fonte ufficiale (indicazione del brief) | — | Non usato |
+
+## Note
+- Nessuna foto, testo o elemento grafico di concorrenti è stato riutilizzato.
+- Le parole chiave SEO (tandarts Bonaire, tandarts Kralendijk, ecc.) sono candidate: nessun volume di ricerca verificato.
